@@ -1,0 +1,39 @@
+.block-info__new {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+
+  .list-button {
+    .button-delete {
+      width: 80px;
+    }
+    > button {
+      margin-left: 16px;
+    }
+  }
+}
+
+.block-info__seach-classify {
+  padding-top: 26px;
+  padding-bottom: 22px;
+}
+
+.items-upload {
+  display: inline-block;
+  width: 100%;
+  .upload-close {
+    margin-left: 31rem;
+  }
+}
+
+.q-gutter-md {
+  display: flex;
+}
+
+.search-info {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #aeb4c2 !important;
+}

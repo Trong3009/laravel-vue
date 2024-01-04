@@ -1,0 +1,118 @@
+.container_common {
+  max-width: 1440px;
+  .content_common {
+    padding: 0 12px;
+  }
+}
+
+.is-flex {
+  display: flex;
+}
+.justify-content-bw {
+  justify-content: space-between;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.is-img {
+  display: block;
+}
+
+.is-bg-pending {
+  background-color: red;
+}
+
+.is-bg-process {
+  background-color: blue;
+}
+
+.is-bg-done {
+  background-color: green;
+}
+.q-container {
+  padding: 0 30px;
+}
+.btns-act {
+  button {
+    width: 120px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #2747a0;
+    font-size: 14px;
+  }
+}
+
+.block-title {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.title-del {
+  color: #2747a0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+:deep(.q-table__middle) {
+  border-radius: 4px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+
+  .q-table {
+    thead {
+      tr {
+        background-color: #E8700A;
+
+        th {
+          font-size: 17px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+:deep(.q-table__bottom) {
+  padding: 4px 0;
+}
+
+.btns-icon {
+  display: flex;
+  justify-content: center;
+
+  li {
+    cursor: pointer;
+    margin: 0 6px;
+  }
+
+  i {
+    font-size: 17px;
+  }
+}
+
+.title-upload {
+  color: #2747a0;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.file-list {
+  display: flex;
+  font-size: 15px;
+
+  a {
+    color: #208fea;
+    font-style: italic;
+    margin-left: 20px;
+  }
+}

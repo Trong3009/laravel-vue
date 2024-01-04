@@ -1,0 +1,31 @@
+.button-cancel {
+  font-family: Open sans-serif;
+  background-color: #d9d9d9
+}
+.button-perform{
+  font-family: Open sans-serif;
+  background-color: #2747a0;
+  color: #fff;
+}
+
+.upload-list h5{
+  margin-bottom: 12px !important;
+  height: 42px;
+  margin: 0px 0;
+  color: #2747A0;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+.file-list {
+  display:flex;
+  font-size: 15px;
+
+  a {
+    color: #208fea;
+    font-style: italic;
+  }
+}
+.file-list a{
+  margin-left: 20px;
+}

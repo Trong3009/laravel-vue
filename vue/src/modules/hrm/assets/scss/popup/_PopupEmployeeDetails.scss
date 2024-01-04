@@ -1,0 +1,21 @@
+legend {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.q-dialog__inner--minimized > div {
+  max-width: none;
+}
+
+.input-label {
+  display: block;
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+input[type="text"], textarea, input[type="date"] {
+  flex: 2;
+}
+

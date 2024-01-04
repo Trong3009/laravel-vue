@@ -1,0 +1,84 @@
+@import "./dropzone";
+
+.file-info {
+  margin-top: 18px;
+  padding: 0 46px;
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__list {
+    margin-top: 18px;
+    .file-item {
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      column-gap: 16px;
+
+      img {
+        display: block;
+      }
+
+      &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 2;
+
+        .file-upload {
+          span {
+            position: relative;
+            margin-right: 14px;
+            font-size: 13px;
+          }
+          span::before {
+            content: '';
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            border-radius: 50%;
+            background-color: #000;
+            top: 50%;
+            right: -12px;
+            transform: translateY(-50%);
+          }
+          button {
+            font-size: 13px;
+            border: none;
+            background: none;
+            color: #0F91D2;
+            cursor: pointer;
+            transition: .3s;
+          }
+          button:hover {
+            color: #77ccf7;
+          }
+        }
+
+        .file-capacity {
+          font-size: 13px;
+        }
+      }
+
+      &__btn-delete {
+        img {
+          transition: .3s;
+        }
+      }
+
+      &__btn-delete:hover {
+        img {
+          filter: grayscale(100%);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.file-info-limit {
+  max-height: 148px;
+  overflow-y: scroll;
+}

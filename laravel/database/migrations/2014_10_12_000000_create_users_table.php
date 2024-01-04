@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('users', function (Blueprint $table) {
+            $table->id();
+            $table->string('user_name');
+            $table->unsignedBigInteger('parent_id')->nullable()->comment('id user quan ly');
+            $table->string('password');
+            $table->tinyInteger('is_active')->nullable()->default(1)->comment('0: đã nghỉ, 1: đang lv');
+            $table->string('is_admin')->nullable();
+            $table->rememberToken();
+            $table->timestamps();
+            $table->softDeletes();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('users');
+    }
+};

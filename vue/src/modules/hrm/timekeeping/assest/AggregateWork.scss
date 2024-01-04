@@ -1,0 +1,21 @@
+.date-time {
+  height: 100%;
+  margin-right: 14px;
+  div {
+    background: #ddd;
+    padding: 6px;
+  }
+  div:first-child {
+    border-radius: 6px 0 0 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  div:last-child {
+    border-radius: 0 6px 6px 0;
+    margin-left: 1px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,93 @@
+.info-person__top {
+  background: rgb(35, 102, 116);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .button-fix {
+    margin-right: 28px;
+    :deep(.q-btn .q-icon, .q-btn .q-spinner) {
+      font-size: 1.2em;
+    }
+    button {
+      border: 1px solid #ffffff;
+      font-size: 14px;
+      font-family: Inter;
+      font-weight: 500;
+    }
+  }
+  .container {
+    display: flex;
+    padding: 20px 0 20px 20px;
+    align-items: center;
+    .left {
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .right {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
+.info-tabs {
+  width: 100%;
+}
+
+.form-infoperson {
+  width: 100%;
+  input {
+    width: 70% !important;
+    height: 28px;
+    border-radius: 7px;
+    border: 1px solid #bdbdbd;
+    padding: 0 10px;
+  }
+}
+.input-radio_details {
+  display: flex;
+  width: 72.8%;
+  justify-content: left;
+  .input-options {
+    cursor: pointer;
+    display: flex;
+    margin-right: 22px;
+    align-items: center;
+    label {
+      margin-left: 6px;
+      cursor: pointer;
+    }
+  }
+}
+.title-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #000000;
+    margin-bottom: 0;
+  }
+  button {
+    border: 1px solid #236674;
+    color: #236674;
+  }
+  :deep(.q-btn .q-icon, .q-btn .q-spinner) {
+    font-size: 1.2em;
+    color: #236674;
+  }
+}
+.base-style {
+  color: #0c7fda;
+}
+.status-style {
+  color: #10c300;
+}

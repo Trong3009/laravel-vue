@@ -1,0 +1,51 @@
+.q-container {
+  padding: 0 15px;
+}
+.add__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #236674 !important;
+}
+.form_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  label {
+    span {
+      color: red;
+    }
+    &:first-child {
+      margin-right: 17px;
+      white-space: nowrap;
+    }
+  }
+  .q-input {
+    width: 90%;
+    border: none;
+  }
+}
+
+fieldset {
+  border: 1px solid #aeb4c2;
+  border-radius: 8px;
+  padding: 15px 15px;
+}
+.role-checkbox {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  margin-top: 15px;
+  gap p {
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+  }
+  label {
+    font-size: 16px;
+    font-family: Open Sans;
+    color: #5a6684;
+  }
+}

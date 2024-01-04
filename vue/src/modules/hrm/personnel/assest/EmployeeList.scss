@@ -1,0 +1,97 @@
+.input-add_newcar {
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #aeb4c2;
+  padding: 0 0 0 10px;
+}
+
+.title-create {
+  text-align: center;
+  color: #2747a0;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.input-field,
+.select-field {
+  width: calc((100% - 30px) / 2);
+
+  label {
+    display: inline-block;
+    width: 40%;
+    padding-right: 8px;
+    cursor: pointer;
+  }
+
+  input,
+  select {
+    width: 60%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #aeb4c2;
+    padding: 0 10px;
+  }
+}
+.dropdown-menu {
+  position: absolute;
+  top: 34px;
+  right: 0;
+  z-index: 1;
+  border-radius: 12px;
+  background: #fff;
+  width: 172px;
+  box-shadow: 0 0 4px #ccc;
+  .dropdown-action:hover {
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+.dropdown-edit {
+  position: absolute;
+  top: 34px;
+  right: 0;
+  z-index: 1;
+  border-radius: 12px;
+  background: #fff;
+  width: 492px;
+  // height: 646px;
+  box-shadow: 0 0 4px #ccc;
+  padding: 20px;
+  h3 {
+    font-size: 18px;
+    color: #000000;
+    font-family: Inter;
+    font-weight: 800;
+  }
+  .edit-infor {
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-size: 16px;
+      color: #000000;
+      font-family: Inter;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 18px;
+    }
+    .checkbox-personal {
+      display: flex;
+      margin-bottom: 10px;
+      label {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+.arrow-back {
+  margin-right: 20px;
+  cursor: pointer;
+}
+

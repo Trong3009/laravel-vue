@@ -1,0 +1,31 @@
+.notify {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #55B938;
+  border-radius: 4px;
+  height: 64px;
+  padding-left: 12px;
+  min-width: 200px;
+  max-width: 100%;
+
+  &__icon {
+    margin-right: 8px;
+    color: #fff;
+    font-size: 24px;
+  }
+
+  &__text {
+    color: #fff;
+  }
+
+  &__icon-cancel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 9px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+  }
+}

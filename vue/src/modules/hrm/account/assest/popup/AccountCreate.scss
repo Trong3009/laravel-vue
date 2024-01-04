@@ -1,0 +1,39 @@
+.add__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #236674 !important;
+}
+.form_box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 992px;
+  align-items: center;
+}
+
+.form_group {
+  align-items: baseline;
+  justify-content: space-between;
+  .label_custom {
+    width: 40%;
+  }
+  .input_custom {
+    width: 60% !important;
+    border-radius: 8px;
+    margin: 0 10px;
+    outline: none;
+  }
+  .q-field--dense .q-field__control, .q-field--dense .q-field__marginal {
+    height: 32px !important;
+  }
+  .select_custom {
+    width: 60% !important;
+    border-radius: 8px;
+    margin: 0 10px 0;
+  }
+  .q-field--auto-height.q-field--dense .q-field__control, .q-field--auto-height.q-field--dense .q-field__native {
+    min-height: 32px !important;
+  }
+}

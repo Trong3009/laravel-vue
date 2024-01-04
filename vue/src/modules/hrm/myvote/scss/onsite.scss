@@ -1,0 +1,34 @@
+.q-form.q-container.id-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    padding: 4px;
+}
+
+.input-field{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+.q-field.input-field_info.onsitedate{
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+}
+.ot-icon{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+.circle-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #236674;
+    color: #236674;
+    font-size: 16px;
+  }
